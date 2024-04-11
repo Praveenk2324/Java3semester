@@ -40,10 +40,10 @@ public class Stack {
 public static void main(String[] args) {
 	Stack stack=new Stack(5);
 	stack.push(10);
-	stack.push(20);
-	stack.push(12);
-	stack.push(33);
-	stack.push(45);
+//	stack.push(20);
+//	stack.push(12);
+//	stack.push(33);
+//	stack.push(45);
 	stack.display();
 	stack.pop();
 	stack.display();
