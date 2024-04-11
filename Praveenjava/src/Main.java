@@ -2,16 +2,12 @@
 
 public class Main{
 	public static void main(String[] args) {
-	//Person person=new Person("hello",33);
-	Hero hero=new Hero("gustavo", 44, "lospollos");
-	System.out.println(hero.name);
-	System.out.println(hero.age);
-	System.out.println(hero.power);
-	
-	
-	
-	
-	
-	
+		Cons c=new Cons();
+		Cons co=new Cons("mike",33);
+		
+		System.out.println(c.name);
+		System.out.println(co.name);
+		System.out.println(co.date);
+		
 	}
 	}
