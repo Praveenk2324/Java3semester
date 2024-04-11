@@ -11,7 +11,7 @@ public class MyThread extends Thread{
 			System.out.println(name+" - "+i);
 			try {
 				Thread.sleep(1000);
-			}catch(TnterruptedException e) {
+			}catch(InterruptedException e) {
 				e.printStackTrace();
 			}
 		}

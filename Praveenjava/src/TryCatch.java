@@ -1,5 +1,5 @@
 
-public class {
+public class TryCatch{
 	public static void main(String[] args) {
 		try {
 			performOperation();
