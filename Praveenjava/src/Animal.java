@@ -1,6 +1,6 @@
 
 public class Animal {
-	void speak() {
-		System.out.println("speaks");
+	void eat() {
+		System.out.println("animal");
 	}
 }

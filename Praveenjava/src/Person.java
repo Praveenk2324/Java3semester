@@ -3,13 +3,9 @@ public class Person {
 	String name;
 	int age;
 	
-	Person(){
-		this.name="hello";
+	Person(String name,int age){
 		
+		this.name=name;
+		this.age=age;
 	}
-//	Person(int name){
-//		this.name;
-//	}
-	
-
 }

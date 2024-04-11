@@ -1,0 +1,6 @@
+
+public class Labrador extends Dog {
+	void color() {
+		System.out.println("white");
+	}
+}

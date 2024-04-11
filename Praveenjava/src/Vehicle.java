@@ -1,11 +1,4 @@
 
-public class Vehicle {
-	double speed;
-	void go() {
-		System.out.println("this vehicle is moving");
-	}
-	void stop() {
-		System.out.println("this vehicle has stopped");
-	}
-
+public abstract class Vehicle {
+	abstract void go();
 }
